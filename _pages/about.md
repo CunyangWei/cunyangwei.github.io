@@ -8,14 +8,14 @@ redirect_from:
   - /aboutme.html
 ---
 
-Cunyang Wei completed his Master's degree at the Institute of Computing Technology, University of Chinese Academy of Sciences, Beijing, China, in 2023. His primary research interests are high performance computing, high-performance deep learning systems, and heterogeneous computing. He has won the National Scholarship for Postgraduates, Outstanding Graduate of Beijing, etc.
+I am a first-year Ph.D. student at the University of Maryland, College Park, under the supervision of [Prof. Abhinav Bhatele](https://www.cs.umd.edu/~bhatele/) in the [Parallel Software and Systems Group](https://pssg.cs.umd.edu/). Prior to joining UMD, I completed my Master's degree at the Institute of Computing Technology (ICT), University of Chinese Academy of Sciences, Beijing, China, in 2023, where I was advised by Prof. Haipeng Jia. During my time at ICT, I focused on irregular matrix multiplication. After graduation, I continued to collaborate with Prof. Jia on research related to accelerating LLM inference on mobile GPUs, specifically Qualcomm and ARM Mali GPUs. I have been honored with awards such as the National Scholarship of China and Outstanding Graduate of Beijing.
 
 For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf).
 
 <!-- <br> -->
 
 **<u>EDUCATION BACKGROUND</u>**
-
+* Ph.D. in Computer Science, University of Maryland, College Park, 09/2024 - Present
 * M. S. in Computer Technology, Institute of Computing Technology (ICT), Chinese Academy of Sciences, 09/2020 - 06/2023
 * B. S. in Mathematics and Applied Mathematics, Zhengzhou University, 09/2016 - 06/2020
 
@@ -64,11 +64,15 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 
 **<u>PUBLICATIONS</u>**
 
-- **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Jianyu Yao, Chendi Li, Wenxuan Cao. 2023. *IrGEMM: An Input-Aware Tuning Framework for Irregular GEMM on ARM and X86 CPUs*. IEEE Transactions on Parallel and Distributed Systems (**TPDS**). (Under review) [PDF](./files/IrGEMM.pdf)
-- Luhan Wang, Haipeng Jia, Lei Xu, **Cunyang Wei**, Kun Li, Xianmeng Jiang, Yunquan Zhang. 2024. *VNEC: A Vectorized Non-Empty Column Format for SpMV on CPUs*. 2024 IEEE International Parallel and Distributed Processing Symposium (IPDPS).
-- **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Liusha Xu, and Ji Qi. 2022. *IATF: An Input-Aware Tuning Framework for Compact BLAS Based on ARMv8 CPUs*. In 51st International Conference on Parallel Processing (**ICPP**), 2022. [PDF](./files/IATF.pdf)
-- **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Kun Li, Luhan Wang. 2022. *LBBGEMM: A Load-Balanced Batch GEMM Framework on ARM CPUs*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. (**Acceptance rate 17.6%**) [PDF](./files/LBBGEMM.pdf)
-- Luhan Wang, Haipeng Jia, Yunquan Zhang, Kun Li, **Cunyang Wei**. 2022. *EgpuIP: An Embedded GPU Accelerated Library for Image Processing*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. [PDF](./files/EgpuIP.pdf)
+- **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Jianyu Yao, Chendi Li, Wenxuan Cao. 2024. *IrGEMM: An Input-Aware Tuning Framework for Irregular GEMM on ARM and X86 CPUs*. IEEE Transactions on Parallel and Distributed Systems (**TPDS**). 
+<!-- [PDF](./files/IrGEMM.pdf) -->
+- Luhan Wang, Haipeng Jia, Lei Xu, **Cunyang Wei**, Kun Li, Xianmeng Jiang, Yunquan Zhang. 2024. *VNEC: A Vectorized Non-Empty Column Format for SpMV on CPUs*. 2024 IEEE International Parallel and Distributed Processing Symposium (**IPDPS**), 2024.
+- **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Liusha Xu, and Ji Qi. 2022. *IATF: An Input-Aware Tuning Framework for Compact BLAS Based on ARMv8 CPUs*. In 51st International Conference on Parallel Processing (**ICPP**), 2022. 
+<!-- [PDF](./files/IATF.pdf) -->
+- **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Kun Li, Luhan Wang. 2022. *LBBGEMM: A Load-Balanced Batch GEMM Framework on ARM CPUs*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. 
+<!-- [PDF](./files/LBBGEMM.pdf) -->
+- Luhan Wang, Haipeng Jia, Yunquan Zhang, Kun Li, **Cunyang Wei**. 2022. *EgpuIP: An Embedded GPU Accelerated Library for Image Processing*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. 
+<!-- [PDF](./files/EgpuIP.pdf) -->
 
 <!-- <br> -->
 

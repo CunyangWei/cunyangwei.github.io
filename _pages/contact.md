@@ -7,8 +7,7 @@ redirect_from:
   - /contact
 ---
 
-* Email: weicunyang@gmail.com, cunyangwei@outlook.com
-* Adress: No.6 Kexueyuan South Road Zhongguancun, Haidian District, Beijing 100190, China
+* Email: weicunyang@gmail.com, cunyang@umd.edu
 
 <br>
 

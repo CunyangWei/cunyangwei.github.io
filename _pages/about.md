@@ -94,6 +94,14 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 - 2017 First Prize Scholarship, Zhengzhou University		
 - 2017 Merit Student, Zhengzhou University		
 
+<!-- <br> -->
+
+**<u>PROFESSIONAL SERVICE</u>**
+
+* TPC reviewer for _IEEE ISPA’25_
+* Session Chair for _IEEE HPCC’22_
+<!-- <br> -->
+
 <!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5nr50ha4g8t&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script> -->
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=yu1BCrXIaVGmxEQICfWKHiREO7LqhQYMwkHOmgd6gLo&cl=ffffff&w=a"></script>
 
@@ -104,14 +112,3 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 
 <!-- <br> -->
 
-**<u>PROFESSIONAL SERVICE</u>**
-
-* TPC reviewer for _IEEE ISPA’25_
-* Session Chair for _IEEE HPCC’22_
-<!-- <br> -->
-<!-- 
-**<u>PROFESSIONAL SKILLS</u>**
-
-- Mastered ARM assembly, X86 assembly, and programming with C 
-- Proficient in OpenMP, Arm Neon, Intel AVX512 and etc. 
-- Solid knowledge in Linux basic commands, data structure and computer architecture --> -->

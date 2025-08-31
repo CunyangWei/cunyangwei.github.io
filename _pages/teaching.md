@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /Teaching/
+permalink: /teaching/
 title: "Teaching"
 author_profile: false
 redirect_from: 

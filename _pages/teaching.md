@@ -13,6 +13,8 @@ redirect_from:
 
     Responsibilities include holding office hours to assist students with course material and grading assignments. This course explores the intersection of science, data, and ethics in modern society.
 
+---
+
 * _**Teaching Assistant for CMSC216 - Introduction to Computer Systems**_ 
 
     Fall 2024, University of Maryland, College Park  

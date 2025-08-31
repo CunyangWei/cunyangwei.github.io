@@ -15,12 +15,16 @@ redirect_from:
     * Our study is the first to systematically investigate network-induced performance variability on modern GPU clusters, revealing that network delays are the dominant factor affecting overall system performance.
     * We conducted a longitudinal study on production systems such as Perlmutter and Frontier, collecting extensive real-world data across both traditional MPI applications and distributed deep learning workloads. These novel insights provide actionable strategies for mitigating network bottlenecks, underscoring the originality and importance of our work in advancing HPC and AI system efficiency.
 
+---
+
 * _**Taming Billion-edge Graphs with 3D Parallel Full-graph GNN Training**_ 
 
     12/2024 – Present
     * Proposed a novel 3D parallel algorithm to address memory, communication, and load-balancing challenges in large-scale GNN training, enabling efficient distribution of graph data and computation across thousands of GPUs.
     * Designed a performance model to automatically select optimal 3D virtual GPU grid configurations and designed a double permutation scheme to achieve near-perfect load balancing for sparse graph data.
     * Achieved unprecedented scalability up to 2048 GPUs on the Frontier and Perlmutter supercomputers, delivering up to a 54.2x speedup over state-of-the-art frameworks.
+
+---
 
 * _**Optimization of LLM Inference Framework on Mobile GPU**_
 

@@ -8,9 +8,10 @@ main:
 
 #   - title: "Blog Posts"
 #     url: /year-archive/
+  - title: "Contact"
+    url: /contact/  
     
   - title: "CV"
     url: "./files/CV_Cunyang_Wei.pdf"
     
-  - title: "Contact"
-    url: /contact/  
+  

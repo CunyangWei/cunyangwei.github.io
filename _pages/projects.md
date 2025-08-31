@@ -7,13 +7,28 @@ redirect_from:
   - /projects
 ---
 
+* _**Unmasking Network-Induced Performance Variability in GPU-Accelerated Supercomputers**_
+    
+    09/2024 – Present
+
+    * Modern HPC systems are increasingly challenged by performance variability that significantly impacts both scientific simulations and AI training, with even minor delays on a single node causing widespread job slowdowns. This issue is exacerbated by heterogeneous hardware, software jitter, and especially network contention, leading to inefficient resource usage and higher operational costs.
+    * Our study is the first to systematically investigate network-induced performance variability on modern GPU clusters, revealing that network delays are the dominant factor affecting overall system performance.
+    * We conducted a longitudinal study on production systems such as Perlmutter and Frontier, collecting extensive real-world data across both traditional MPI applications and distributed deep learning workloads. These novel insights provide actionable strategies for mitigating network bottlenecks, underscoring the originality and importance of our work in advancing HPC and AI system efficiency.
+
+* _**Taming Billion-edge Graphs with 3D Parallel Full-graph GNN Training**_ 
+
+    12/2024 – Present
+    * Proposed a novel 3D parallel algorithm to address memory, communication, and load-balancing challenges in large-scale GNN training, enabling efficient distribution of graph data and computation across thousands of GPUs.
+    * Designed a performance model to automatically select optimal 3D virtual GPU grid configurations and designed a double permutation scheme to achieve near-perfect load balancing for sparse graph data.
+    * Achieved unprecedented scalability up to 2048 GPUs on the Frontier and Perlmutter supercomputers, delivering up to a 54.2x speedup over state-of-the-art frameworks.
+
 * _**Optimization of LLM Inference Framework on Mobile GPU**_
 
 	07/2023 - 2024.01
 
-    * Optimized the inference part of Llama 7B on Qualcomm Snapdragon 8gen2's Adreno 740 GPU, with a processing time of less than 2 seconds for the Step 0 phase with 32 token inputs and 8 tokens/s for the Step N phase.
-    * Enhanced the performance of tall-and-skinny matrix multiplication, a computational hotspot in the step0 phase. It provides up to 4.0× speedups compared to CLBlast, by implementing a carefully planned tiling strategy for more efficient computation and on-chip memory optimization.
-    * Improved the efficiency of GEMV, a key computational process in the stepN phase, reaching over 90% of peak bandwidth capability.
+    * Accelerated LLaMA-7B inference on mobile GPUs (Qualcomm Adreno 740) by co-designing computation scheduling and memory optimization strategies.
+    * Optimized tall-and-skinny matrix multiplication kernels for the prefill phase computational bottleneck, achieving 4.0× performance improvement over CLBlast baseline through sophisticated tiling algorithms and strategic on-chip memory utilization.
+    * Enhanced GEMV operation efficiency in the decode phase, delivering >90% peak memory bandwidth utilization through targeted algorithmic improvements and hardware-aware optimization techniques.
 
 <video width="225" height="500" controls style="display: block; margin: auto;">
   <source src="https://dl.dropboxusercontent.com/scl/fi/s2qr78r1dkvly9akcjj52/perfxLLM.mp4?rlkey=hnvzdwixacug3mw4ro1nxcnoo&dl=1" type="video/mp4">

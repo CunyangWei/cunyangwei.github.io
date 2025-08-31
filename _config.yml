@@ -83,7 +83,7 @@ date_format: "%Y-%m-%d"
 # Site Author
 author:
   name             : "Cunyang Wei"
-  avatar           : "weicunyang1.jpg"
+  avatar           : "weicunyang.jpg"
   bio              : 
   location         : "College Park, MD, US"
   employer         :
@@ -104,8 +104,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : 
+  linkedin         : https://www.linkedin.com/in/cunyang-wei-5a50b0253
+  orcid            : https://orcid.org/0009-0001-8910-4951
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

@@ -68,6 +68,7 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 
 **<u>PUBLICATIONS</u>**
 
+- **Cunyang Wei**, Rishi Keshav Pradeep, Abhinav Bhatele. *Unmasking Performance Variability in GPU Codes on Production Supercomputers*. Poster at 2025 International Conference for High Performance Computing, Networking, Storage, and Analysis (**SC**), 2025.
 - Aditya K. Ranjan, Siddharth Singh, **Cunyang Wei**, Abhinav Bhatele. *Plexus: Taming Billion-edge Graphs with 3D Parallel GNN Training*. Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis (**SC**), 2025.
 - **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Jianyu Yao, Chendi Li, Wenxuan Cao. 2024. *IrGEMM: An Input-Aware Tuning Framework for Irregular GEMM on ARM and X86 CPUs*. IEEE Transactions on Parallel and Distributed Systems (**TPDS**). 
 <!-- [PDF](./files/IrGEMM.pdf) -->

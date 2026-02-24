@@ -68,7 +68,6 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 
 **<u>PUBLICATIONS</u>**
 - **Cunyang Wei**, Abhinav Bhatele. *Scalable All-to-allv Algorithms for Dynamic and Irregular Communication Patterns*. The 40th ACM International Conference on Supercomputing (**ICS**), 2026.
-
 - **Cunyang Wei**, Keshav Pradeep, Abhinav Bhatele. *The Case of the Elusive Application Performance on Production GPU Supercomputers*. Proceedings of the IEEE International Parallel & Distributed Processing Symposium (**IPDPS**), 2026.
 [PDF](./files/2026-05-variability-ipdps.pdf)
 - Siddharth Singh, Keshav Pradeep, Mahua Singh, **Cunyang Wei**, Abhinav Bhatele. *The Big Send-off: Scalable and Performant Collectives for Deep Learning*. Proceedings of the IEEE International Parallel & Distributed Processing Symposium (**IPDPS**), 2026.

@@ -70,23 +70,23 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 - **Cunyang Wei**, Abhinav Bhatele. *Scalable All-to-allv Algorithms for Dynamic and Irregular Communication Patterns*. The 40th ACM International Conference on Supercomputing (**ICS**), 2026.
 
 - **Cunyang Wei**, Keshav Pradeep, Abhinav Bhatele. *The Case of the Elusive Application Performance on Production GPU Supercomputers*. Proceedings of the IEEE International Parallel & Distributed Processing Symposium (**IPDPS**), 2026.
-<!-- [PDF](./files/2026-05-variability-ipdps.pdf) -->
+[PDF](./files/2026-05-variability-ipdps.pdf)
 - Siddharth Singh, Keshav Pradeep, Mahua Singh, **Cunyang Wei**, Abhinav Bhatele. *The Big Send-off: Scalable and Performant Collectives for Deep Learning*. Proceedings of the IEEE International Parallel & Distributed Processing Symposium (**IPDPS**), 2026.
-<!-- [PDF](./files/2026-05-pccl.pdf) -->
+[PDF](./files/2026-05-pccl.pdf)
 - **Cunyang Wei**, Rishi Keshav Pradeep, Abhinav Bhatele. *Unmasking Performance Variability in GPU Codes on Production Supercomputers*. Poster at 2025 International Conference for High Performance Computing, Networking, Storage, and Analysis (**SC**), 2025.
-<!-- [PDF](./files/plexus.pdf) -->
+[PDF](./files/plexus.pdf)
 - Aditya K. Ranjan, Siddharth Singh, **Cunyang Wei**, Abhinav Bhatele. *Plexus: Taming Billion-edge Graphs with 3D Parallel GNN Training*. Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis (**SC**), 2025.
-<!-- [PDF](./files/variability_poster.pdf) -->
+[PDF](./files/variability_poster.pdf)
 - **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Jianyu Yao, Chendi Li, Wenxuan Cao. 2024. *IrGEMM: An Input-Aware Tuning Framework for Irregular GEMM on ARM and X86 CPUs*. IEEE Transactions on Parallel and Distributed Systems (**TPDS**). 
-<!-- [PDF](./files/IrGEMM.pdf) -->
+[PDF](./files/IrGEMM.pdf)
 - Luhan Wang, Haipeng Jia, Lei Xu, **Cunyang Wei**, Kun Li, Xianmeng Jiang, Yunquan Zhang. 2024. *VNEC: A Vectorized Non-Empty Column Format for SpMV on CPUs*. 2024 IEEE International Parallel and Distributed Processing Symposium (**IPDPS**), 2024.
 - Rongyuan Guo, Haipeng Jia, Yuanquan Zhang, Mingsen Deng, **Cunyang Wei**, et al. *SA_TRSM: A Shape-Aware Auto-Tuning Framework for Small-Scale Irregular-Shaped TRSM*. IEEE 29th International Conference on Parallel and Distributed Systems (**ICPADS**), 2023.
 - **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Liusha Xu, and Ji Qi. 2022. *IATF: An Input-Aware Tuning Framework for Compact BLAS Based on ARMv8 CPUs*. In 51st International Conference on Parallel Processing (**ICPP**), 2022. 
-<!-- [PDF](./files/IATF.pdf) -->
+[PDF](./files/IATF.pdf)
 - **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Kun Li, Luhan Wang. 2022. *LBBGEMM: A Load-Balanced Batch GEMM Framework on ARM CPUs*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. 
-<!-- [PDF](./files/LBBGEMM.pdf) -->
+[PDF](./files/LBBGEMM.pdf)
 - Luhan Wang, Haipeng Jia, Yunquan Zhang, Kun Li, **Cunyang Wei**. 2022. *EgpuIP: An Embedded GPU Accelerated Library for Image Processing*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. 
-<!-- [PDF](./files/EgpuIP.pdf) -->
+[PDF](./files/EgpuIP.pdf)
 
 <!-- <br> -->
 

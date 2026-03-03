@@ -72,8 +72,6 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 [PDF](./files/2026-05-variability-ipdps.pdf)
 - Siddharth Singh, Keshav Pradeep, Mahua Singh, **Cunyang Wei**, Abhinav Bhatele. *The Big Send-off: Scalable and Performant Collectives for Deep Learning*. Proceedings of the IEEE International Parallel & Distributed Processing Symposium (**IPDPS**), 2026.
 [PDF](./files/2026-05-pccl.pdf)
-- **Cunyang Wei**, Rishi Keshav Pradeep, Abhinav Bhatele. *Unmasking Performance Variability in GPU Codes on Production Supercomputers*. Poster at 2025 International Conference for High Performance Computing, Networking, Storage, and Analysis (**SC**), 2025.
-[PDF](./files/variability_poster.pdf)
 - Aditya K. Ranjan, Siddharth Singh, **Cunyang Wei**, Abhinav Bhatele. *Plexus: Taming Billion-edge Graphs with 3D Parallel GNN Training*. Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis (**SC**), 2025.
 [PDF](./files/plexus.pdf)
 - **Cunyang Wei**, Haipeng Jia, Yunquan Zhang, Jianyu Yao, Chendi Li, Wenxuan Cao. 2024. *IrGEMM: An Input-Aware Tuning Framework for Irregular GEMM on ARM and X86 CPUs*. IEEE Transactions on Parallel and Distributed Systems (**TPDS**). 
@@ -87,6 +85,11 @@ For additional details, please refer to his [Full CV](./files/CV_Cunyang_Wei.pdf
 - Luhan Wang, Haipeng Jia, Yunquan Zhang, Kun Li, **Cunyang Wei**. 2022. *EgpuIP: An Embedded GPU Accelerated Library for Image Processing*. The 24th IEEE International Conference on High Performance Computing & Communications (**HPCC**), 2022. 
 [PDF](./files/EgpuIP.pdf)
 
+<!--<br> -->
+
+**<u>POSTERS</u>**
+- **Cunyang Wei**, Rishi Keshav Pradeep, Abhinav Bhatele. *Unmasking Performance Variability in GPU Codes on Production Supercomputers*. Poster at 2025 International Conference for High Performance Computing, Networking, Storage, and Analysis (**SC**), 2025. <span style="color: red;"><strong>Best Poster Award Nominee</strong></span>
+[PDF](./files/variability_poster.pdf)
 <!-- <br> -->
 
 **<u>HONORS AND AWARDS</u>**

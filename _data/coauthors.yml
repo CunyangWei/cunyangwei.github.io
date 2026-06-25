@@ -1,0 +1,5 @@
+# Map last names appearing in papers.bib to links / canonical first names.
+# See https://github.com/alshedivat/al-folio for details.
+"bhatele":
+  - firstname: ["Abhinav"]
+    url: https://www.cs.umd.edu/~bhatele/

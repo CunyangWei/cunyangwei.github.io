@@ -1,0 +1,9 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/CV_Cunyang_Wei.pdf # path to your CV PDF file
+email: cunyang@umd.edu # your email address
+scholar_userid: AUpxUCIAAAAJ # your Google Scholar ID
+orcid_id: 0009-0001-8910-4951 # your ORCID ID
+linkedin_username: cunyang-wei-5a50b0253 # your LinkedIn username
+rss_icon: true # comment this line to hide the RSS icon

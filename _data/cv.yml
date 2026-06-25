@@ -1,0 +1,68 @@
+cv:
+  name: Cunyang Wei
+  label: Ph.D. Student in Computer Science
+  email: cunyang@umd.edu
+  location: College Park, MD, US
+  image: ""
+  summary: Ph.D. student at the University of Maryland, College Park, working on high-performance computing, parallel algorithms, and optimizing AI workloads for modern hardware.
+
+  social_networks:
+    - network: LinkedIn
+      username: cunyang-wei-5a50b0253
+
+  sections:
+    Education:
+      - institution: University of Maryland, College Park
+        location: College Park, MD, US
+        url: https://www.cs.umd.edu/
+        area: Computer Science
+        studyType: Ph.D.
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - "Advised by Prof. Abhinav Bhatele in the Parallel Software and Systems Group (PSSG)."
+          - "Research on parallel optimization for large-scale GNNs, performance variability, and collective communication."
+
+      - institution: Institute of Computing Technology (ICT), University of Chinese Academy of Sciences
+        location: Beijing, China
+        area: Computer Technology
+        studyType: M.S.
+        start_date: 2020-09
+        end_date: 2023-06
+        highlights:
+          - "Advised by Prof. Haipeng Jia."
+          - "Focused on irregular matrix multiplication; first-author publications in TPDS, ICPP, and HPCC."
+
+      - institution: Zhengzhou University
+        location: Zhengzhou, China
+        area: Mathematics and Applied Mathematics
+        studyType: B.S.
+        start_date: 2016-09
+        end_date: 2020-06
+
+    Honors and Awards:
+      - title: MVAPICH User Group Conference Travel Grant
+        date: 2025
+      - title: Dean's Fellowship, University of Maryland, College Park
+        date: 2024
+      - title: Outstanding Graduate of Beijing
+        awarder: Beijing Municipal Education Commission
+        date: 2023
+      - title: Outstanding Graduate
+        awarder: University of Chinese Academy of Sciences
+        date: 2023
+      - title: National Scholarship for Postgraduates
+        awarder: Ministry of Education of the People's Republic of China
+        date: 2022
+      - title: First Prize Scholarship
+        awarder: University of Chinese Academy of Sciences
+        date: 2022
+      - title: Merit Student
+        awarder: University of Chinese Academy of Sciences
+        date: 2022
+      - title: First Prize Scholarship
+        awarder: Zhengzhou University
+        date: 2017
+      - title: Merit Student
+        awarder: Zhengzhou University
+        date: 2017

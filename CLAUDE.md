@@ -1,93 +1,45 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code when working in this repository.
 
 ## Overview
 
-This is an academic personal website built with Jekyll and the Academic Pages theme, forked from Minimal Mistakes. The site is hosted on GitHub Pages and serves as a portfolio for Cunyang Wei, showcasing publications, talks, teaching, and CV information.
+Personal academic website of **Cunyang Wei**, built with Jekyll and the
+[al-folio](https://github.com/alshedivat/al-folio) theme (v1.x, gem-based).
+Hosted on GitHub Pages at https://cunyangwei.github.io.
 
-## Development Commands
+al-folio v1 is a **thin Jekyll starter**: all layouts, includes, Sass, tags, and
+feature JS live in published `al_*` / `al_folio_*` gems (see `Gemfile`). This repo
+owns only configuration and content. Do **not** add `_layouts/`, `_includes/`, or
+`_sass/` here unless intentionally overriding a gem-owned file.
 
-### Local Development
+## Where content lives
+
+- `_pages/about.md` — home page bio, profile photo (`assets/img/prof_pic.png`)
+- `_bibliography/papers.bib` — publications (rendered on the Publications page via
+  jekyll-scholar). Mark `selected={true}` to feature a paper on the home page.
+  PDFs referenced by `pdf = {file.pdf}` live in `assets/pdf/`.
+- `_news/*.md` — short "news" items shown on the home page
+- `_data/cv.yml` + `_pages/cv.md` — CV page (RenderCV format); `cv_pdf` points to
+  `assets/pdf/CV_Cunyang_Wei.pdf`
+- `_data/socials.yml` — email, Google Scholar, ORCID, LinkedIn, CV link
+- `_projects/`, `_posts/` — currently empty; Projects/Blog pages are placeholders
+
+## Local development
+
 ```bash
-# Install dependencies
 bundle install
-
-# Serve locally with live reload
-bundle exec jekyll liveserve
-
-# Clean the site
-bundle clean
+bundle exec jekyll serve   # http://localhost:4000  (baseurl is empty)
 ```
 
-### JavaScript Build (if needed)
-```bash
-# Install npm dependencies
-npm install
+## Deployment
 
-# Build minified JavaScript
-npm run build:js
+Pushing to `master` triggers `.github/workflows/deploy.yml`, which builds the site
+and publishes `_site/` to the `gh-pages` branch. **GitHub Pages must be configured
+to serve from the `gh-pages` branch** (Settings → Pages → Source). Native
+GitHub-Pages Jekyll builds will not work because the site uses custom plugins.
 
-# Watch JavaScript files for changes
-npm run watch:js
-```
+## Key config
 
-## Site Architecture
-
-### Content Collections
-- **`_publications/`** - Research publications (markdown files)
-- **`_talks/`** - Conference talks and presentations 
-- **`_teaching/`** - Teaching experience entries
-- **`_posts/`** - Blog posts
-- **`_portfolio/`** - Project portfolio items
-- **`_pages/`** - Static pages (About, CV, etc.)
-
-### Key Configuration Files
-- **`_config.yml`** - Main Jekyll configuration and site metadata
-- **`_config.dev.yml`** - Development-specific overrides
-- **`_data/navigation.yml`** - Site navigation structure
-- **`_data/authors.yml`** - Author information
-
-### Layout System
-- **`_layouts/`** - Page templates (single, archive, talk, etc.)
-- **`_includes/`** - Reusable template components
-- **`_sass/`** - Stylesheets organized by component
-
-### Content Generation
-- **`markdown_generator/`** - Jupyter notebooks and Python scripts to generate markdown files from TSV data
-  - `publications.ipynb` - Generate publication pages from `publications.tsv`
-  - `talks.ipynb` - Generate talk pages from `talks.tsv`
-  - Run notebooks to batch-create content from structured data
-
-### Static Assets
-- **`files/`** - PDFs and documents (CV, papers)
-- **`images/`** - Profile photos and site images
-- **`assets/`** - CSS, JavaScript, and font files
-
-## Content Management
-
-### Adding Publications
-1. Add entry to `markdown_generator/publications.tsv`
-2. Run `publications.ipynb` to generate markdown files
-3. Or manually create markdown file in `_publications/`
-
-### Adding Talks
-1. Add entry to `markdown_generator/talks.tsv` 
-2. Run `talks.ipynb` to generate markdown files
-3. Or manually create markdown file in `_talks/`
-
-### Updating Profile
-- Edit author information in `_config.yml` (lines 84-119)
-- Replace profile image in `images/` directory
-- Update CV PDF in `files/` directory
-
-## GitHub Pages Deployment
-
-The site auto-deploys to GitHub Pages on pushes to master branch. Local development uses `bundle exec jekyll liveserve` for testing changes before deployment.
-
-## File Organization Notes
-
-- Jekyll collections output individual pages for publications, talks, teaching, and portfolio items
-- The `talkmap/` directory contains geographic visualization of talks
-- Static comments are handled via Staticman configuration
-- Site excludes development files like `node_modules`, `Gemfile`, etc. from builds
+- `_config.yml`: `url: https://cunyangwei.github.io`, `baseurl: ""` (user page),
+  `theme: al_folio_core`, `scholar.last_name/first_name` set to highlight the author.
